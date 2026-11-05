@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021f14" />
+      <stop offset="50%" stop-color="#03120b" />
+      <stop offset="100%" stop-color="#010805" />
+    </linearGradient>
+
+    <!-- Emerald-to-Cyan Canopy Gradient -->
+    <linearGradient id="canopyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Amber Bioluminescent Core Gradient -->
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- Outer Rim Glow Filter -->
+    <filter id="neonBloom" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <radialGradient id="centerSpore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="40%" stop-color="#fbbf24" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Glow Behind Shield -->
+  <circle cx="50" cy="50" r="38" fill="url(#centerSpore)" opacity="0.35" filter="url(#neonBloom)" />
+
+  <!-- Hexagonal / Shield Frame -->
+  <path
+    d="M50 6 L86 24 L86 64 L50 94 L14 64 L14 24 Z"
+    fill="url(#bgGrad)"
+    stroke="url(#canopyGrad)"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Tech Facet Lines -->
+  <path
+    d="M50 14 L80 29 L80 61 L50 86 L20 61 L20 29 Z"
+    stroke="#047857"
+    stroke-width="1"
+    stroke-opacity="0.4"
+    stroke-dasharray="3 3"
+    fill="none"
+  />
+
+  <!-- Stylized "M" Shaped Canopy Monstera/Fern Silhouette with Code Chevron -->
+  <!-- Left Wing of Leaf/M -->
+  <path
+    d="M50 30 Q36 34 27 46 Q24 55 30 63 Q37 72 50 82"
+    stroke="url(#canopyGrad)"
+    stroke-width="2.75"
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Right Wing of Leaf/M -->
+  <path
+    d="M50 30 Q64 34 73 46 Q76 55 70 63 Q63 72 50 82"
+    stroke="url(#canopyGrad)"
+    stroke-width="2.75"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Central Stem / Code Slash (/) -->
+  <line
+    x1="50" y1="20"
+    x2="50" y2="76"
+    stroke="#34d399"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Botanical Circuit Traces (Left Side) -->
+  <path
+    d="M50 42 Q40 44 33 40"
+    stroke="#34d399"
+    stroke-width="1.75"
+    stroke-linecap="round"
+  />
+  <path
+    d="M50 54 Q38 58 35 66"
+    stroke="#34d399"
+    stroke-width="1.75"
+    stroke-linecap="round"
+  />
+
+  <!-- Botanical Circuit Traces (Right Side) -->
+  <path
+    d="M50 42 Q60 44 67 40"
+    stroke="#22d3ee"
+    stroke-width="1.75"
+    stroke-linecap="round"
+  />
+  <path
+    d="M50 54 Q62 58 65 66"
+    stroke="#22d3ee"
+    stroke-width="1.75"
+    stroke-linecap="round"
+  />
+
+  <!-- Upper Code Chevron < > Accents -->
+  <path
+    d="M40 25 L45 20 L40 16"
+    stroke="#34d399"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.8"
+  />
+  <path
+    d="M60 25 L55 20 L60 16"
+    stroke="#22d3ee"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.8"
+  />
+
+  <!-- Glowing Firefly Bio-Nodes on Branch Tips -->
+  <circle cx="33" cy="40" r="2.2" fill="#fbbf24" filter="url(#neonBloom)" />
+  <circle cx="35" cy="66" r="2.2" fill="#34d399" />
+  <circle cx="67" cy="40" r="2.2" fill="#22d3ee" />
+  <circle cx="65" cy="66" r="2.2" fill="#fbbf24" filter="url(#neonBloom)" />
+
+  <!-- Top Crown Spore -->
+  <circle cx="50" cy="18" r="2.5" fill="#34d399" filter="url(#neonBloom)" />
+
+  <!-- Core Bioluminescent Firefly Nucleus (Center Heart) -->
+  <circle cx="50" cy="48" r="5.5" fill="url(#amberGlow)" filter="url(#neonBloom)" />
+  <circle cx="50" cy="48" r="2" fill="#ffffff" />
+</svg>
+
