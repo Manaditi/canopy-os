@@ -1,8 +1,14 @@
 # 🌿 Canopy_OS — Bioluminescent Midnight Rainforest & Interactive Software Bug Catcher
 
+[![Deploy to GitHub Pages](https://github.com/Manaditi/canopy-os/actions/workflows/deploy.yml/badge.svg)](https://github.com/Manaditi/canopy-os/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-manaditi.github.io%2Fcanopy--os-10b981?style=flat&logo=google-chrome&logoColor=white)](https://manaditi.github.io/canopy-os/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg?style=flat)](LICENSE)
+[![AWS Builder Challenge](https://img.shields.io/badge/AWS%20Builder%20Challenge-2026-FF9900?style=flat&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+
 > **AWS Student Builder Challenge: Build Your Tech Superpower**  
 > Developed by **Manav Rana** | Undergraduate B.Tech CSE (AI & ML) at Parul University  
-> 🔗 **GitHub:** [@Manaditi](https://github.com/Manaditi) | 💼 **LinkedIn:** [in/manav-rana-74298b427](https://www.linkedin.com/in/manav-rana-74298b427/) | ✉️ **Email:** [manavrana932@gmail.com](mailto:manavrana932@gmail.com)
+> 🔗 **GitHub:** [@Manaditi](https://github.com/Manaditi) | 💼 **LinkedIn:** [in/manav-rana-74298b427](https://www.linkedin.com/in/manav-rana-74298b427/) | ✉️ **Email:** [manavrana932@gmail.com](mailto:manavrana932@gmail.com)  
+> 🌐 **Live Website:** [https://manaditi.github.io/canopy-os/](https://manaditi.github.io/canopy-os/)
 
 ---
 
