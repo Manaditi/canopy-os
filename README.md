@@ -94,3 +94,4 @@ frontend:
 
 ## 📜 License
 Distributed under the MIT License. Built with passion for the AWS Student Builder Challenge 2026.
+

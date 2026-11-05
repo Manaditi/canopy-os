@@ -1628,7 +1628,7 @@ export default function App() {
                 <div className="relative mt-4 rounded-xl overflow-hidden aspect-[4/5] bg-emerald-950/80 border border-emerald-700/50 shadow-inner group">
                   {!imgError ? (
                     <img
-                      src="/images/profile.webp"
+                      src={`${import.meta.env.BASE_URL}images/profile.webp`}
                       alt="Manav Rana - Student Builder"
                       onError={() => setImgError(true)}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
